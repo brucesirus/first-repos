@@ -1,0 +1,186 @@
+un site web:ensemble de pages web reliés entre elles et accessible 
+internet:le reseau mondial de communication qui relie plusieurs appareils et peripheriques à travers le monde
+protocol:un ensemble de regle permettant d'echanger des informations
+un serveur est un systeme
+les serveurs sont directement connecté à internet mais stoquent les pages web dans leurs memoires
+le protocol prends en compte 3 points:
+-le format des données 
+-l'adressage
+-verification et gestions des erreurs 
+
+
+
+
+L'architecture REST utilise les instructions originales du protocole HTTP.
+
+Règle n°1 : L'URL doit fonctionner comme un identifiant de ressource.
+Règle n°2 : les verbes HTTP doivent fonctionner comme les identifiants des opérations.
+Règle n°3 : les réponses HTTP doivent fonctionner comme des représentations de ressources.
+Règle n°4 : Les liens sont comme une relation entre ressources.
+Règle n°5 : Un paramètre, comme un jeton d'authentification, doit exister.
+
+
+
+Les bases de données sont des collections systématiques de données.
+Les bases de données prennent en charge le stockage et la manipulation des données.
+Les bases de données simplifient la gestion des données.
+
+Prenons Facebook comme exemple. Une plateforme de médias sociaux doit stocker, manipuler et présenter des données à ses membres. Il doit également fournir des données à l’ensemble du réseau d’amis, notamment leurs activités, leurs messages, leurs goûts et bien plus encore. Si nous stockions toutes ces données dans des fichiers, il serait pratiquement impossible de les utiliser.
+
+Heureusement, c’est là que les bases de données entrent en jeu.
+
+
+Types de bases de données :
+Il existe de nombreux types de bases de données. La meilleure base de données pour une organisation spécifique dépend des objectifs, des plans et des projets de l'organisation.
+
+Voici les types de bases de données :
+
+Bases de données relationnelles
+Bases de données orientées objet
+Bases de données distribuées
+Entrepôts de données
+Bases de données NoSQL
+Bases de données graphiques
+Bases de données OLTP
+
+Qu’est-ce que SQL ?
+SQL signifie « langage de requête structuré ».
+
+C'est un langage qui permet de communiquer avec des bases de données pour gérer correctement ses données.
+
+SQL est-il un langage de programmation ?
+Oui, SQL est un langage. Il propose des boucles, des directives logiques, des variables, etc. Cependant, ce n’est pas un langage au même sens que Java ou C++.
+
+SQL n'est peut-être pas un langage comparé à Java ou C#, mais c'est néanmoins un langage.
+
+Selon W3Schools : « SQL est un langage standard pour stocker, manipuler et récupérer des données dans des bases de données. »
+
+
+
+Exemple de gestion de base de données SQL
+Imaginez une bibliothèque. Nous pourrions créer une base de données qui stocke les données sur les étudiants de la communauté GoMyCode. Dans ce cas, nous n’aurions besoin que d’une seule table et cette table nous permettrait de stocker toutes les informations dont nous avons besoin.
+Il existe quelques commandes SQL fréquemment utilisées que vous devriez connaître. Lorsqu'il travaille avec des bases de données, un programmeur peut écrire des commandes telles que :
+
+CREATE DATABASE : pour créer une base de données.
+CREATE TABLE : pour créer des tableaux.
+SELECT : pour rechercher/extraire des données d'une base de données.
+MISE À JOUR : pour effectuer des ajustements et modifier les données.
+SUPPRIMER : pour supprimer des données.
+
+
+Qu’est-ce que NoSQL ?
+Un NoSQL, qui signifie « non seulement SQL », faisant initialement référence à non SQL ou non relationnel, est une base de données qui fournit un mécanisme de stockage et de récupération de données.
+
+NoSQL est une approche de conception de bases de données qui fournit des schémas flexibles pour le stockage et la récupération de données au-delà des structures de tables traditionnelles trouvées dans les bases de données relationnelles.
+Bien que les bases de données NoSQL existent depuis de nombreuses années, elles sont récemment devenues plus populaires à l'ère du cloud, du big data et des applications Web et mobiles à grand volume. Ils sont choisis aujourd’hui pour leurs attributs en matière d’évolutivité, de performances et de facilité d’utilisation.
+
+Les types de bases de données NoSQL les plus courants sont les bases de données de valeurs-clés, de documents, de colonnes et de graphiques.
+
+
+Exemples de bases de données NoSQL
+De nombreuses bases de données NoSQL ont été conçues par des sociétés technologiques telles que Google, Amazon, Yahoo et Facebook pour fournir des moyens plus efficaces de stocker du contenu ou de traiter des données pour d'énormes sites Web. Certaines des bases de données NoSQL les plus populaires sont les suivantes :
+
+Apache CouchDB :
+une base de données open source basée sur des documents JSON qui utilise JavaScript comme langage de requête.
+Apache Cassandra :
+base de données open source à larges colonnes conçue pour gérer de grandes quantités de données sur plusieurs serveurs et clusters couvrant plusieurs centres de données.
+MongoDB :
+une base de données open source basée sur des documents qui utilise des documents et des schémas de type JSON. C'est le composant base de données de la pile MERN.
+Redis :
+un puissant magasin de valeurs-clés en mémoire utilisé pour la mise en cache des sessions, les files d'attente de messages et d'autres applications spécifiques.
+Elasticsearch :
+une base de données basée sur des documents qui comprend un moteur de recherche en texte intégral.
+
+
+Quelle est la différence entre SQL et NoSQL ?
+La différence fondamentale entre SQL et NoSQL n’est pas si compliquée. Chacun a une philosophie différente sur la manière dont les données doivent être stockées et récupérées.
+
+Les bases de données SQL sont relationnelles, NoSQL est non relationnelle.
+Les bases de données SQL utilisent un langage de requête structuré et disposent d'un schéma prédéfini. Les bases de données NoSQL ont des schémas dynamiques pour les données non structurées.
+Les bases de données SQL sont évolutives verticalement, les bases de données NoSQL sont évolutives horizontalement.
+Les bases de données SQL sont basées sur des tables, tandis que les bases de données NoSQL sont des magasins de documents, de valeurs-clés, de graphiques et de colonnes larges.
+Les bases de données SQL conviennent mieux aux transactions à plusieurs lignes, tandis que NoSQL convient mieux aux données non structurées telles que les documents ou JSON.
+
+
+
+Qu’est-ce que le développement Web ?
+Le développement Web est le processus de création de sites Web et d'applications pour Internet ou pour un réseau privé appelé Intranet.
+
+Le développement Web ne concerne pas seulement la conception d’un site Web. Il s'agit également du codage et de la programmation qui alimentent les fonctionnalités du site Web.
+
+Des pages Web les plus simples et les plus statiques aux plateformes et applications de médias sociaux et des sites Web de commerce électronique aux systèmes de gestion de contenu (CMS), tous les outils que nous utilisons quotidiennement via Internet ont été conçus par des développeurs Web.
+
+Le développement Web peut être décomposé en trois couches :
+
+Codage côté client (front-end)
+Codage côté serveur (back-end)
+Technologie de base de données.
+
+
+
+Qu'est-ce qui définit un développeur Web ?
+Un développeur web est par nature un artiste interactif et créatif. C'est quelqu'un qui est animé par un profond désir de créer des choses. Le canevas d'un développeur Web est le navigateur Web d'un utilisateur.
+
+Semblable à un enfant curieux qui prend plaisir à fabriquer des jouets en assemblant des blocs LEGO puis éprouve une joie similaire en les démontant pour voir comment ils sont fabriqués, le travail d'un développeur Web consiste à utiliser les éléments de base du Web (comme HTML , CSS et JavaScript) pour créer quelque chose de complexe comme une page Web.
+
+Si cela vous semble trop complexe, inutile de vous inquiéter !
+Nous détaillerons ces concepts sous peu.
+
+Types de développeurs Web
+Développeur front-end :
+les scripts côté client, ou développement front-end, font référence à tout ce que l'utilisateur final expérimente directement. Le code côté client est exécuté sur un navigateur Web et est directement lié à ce que les gens voient lorsqu'ils visitent un site Web. Des éléments tels que la mise en page, les polices, les couleurs, les menus et les formulaires de contact sont tous conçus par le front-end.
+
+Développeur back-end :
+les scripts côté serveur, ou développement back-end, concernent ce qui se passe dans les coulisses. 
+Le back-end est essentiellement la partie d’un site Web que l’utilisateur ne voit pas. 
+Il est responsable du stockage et de l’organisation des données et veille au bon déroulement de tout côté client.
+ Il le fait en communiquant avec le front-end. Chaque fois que quelque chose se produit côté client, comme si un utilisateur remplissait un formulaire, le navigateur envoie une requête côté serveur. 
+Le côté serveur « répond » avec des informations pertinentes sous la forme de code frontal que le navigateur peut ensuite interpréter et afficher.
+
+
+Développeur Full Stack :
+Un développeur Web full stack est une personne capable de développer à la fois des logiciels client et serveur.
+En plus de maîtriser HTML et CSS, il sait également :
+
+Programmer une page Web (par exemple en utilisant JavaScript, jQuery, React, Angular ou Vue)
+Programmer un serveur (par exemple en utilisant PHP, ASP, Python ou Node)
+Programmer une base de données (comme utiliser SQL, SQLite ou MongoDB)
+
+
+
+Les compétences d'un développeur Web
+Que faut-il pour devenir développeur web ?
+
+Principalement, cela nécessite la maîtrise de ces trois langages : HTML, CSS et JavaScript.
+
+Ce sont les trois piliers du développement web, que nous découvrirons au cours des prochaines semaines.
+
+Collectivement, ces trois piliers sont ce qui fait fonctionner un site Web, en définissant le contenu à afficher (HTML), en indiquant à un navigateur comment afficher ce contenu (CSS) et en rendant le contenu interactif (JavaScript).
+
+Un développeur Web maîtrise bien ces trois technologies. Ils peuvent lire le code d’autres personnes et y apporter des modifications. Ils peuvent trouver et déboguer des erreurs appelées « bugs » (lacunes du code existant).
+
+Un développeur Web peut parfois travailler sur un nouveau projet (un nouveau site Web) à partir de zéro, ou devoir travailler sur un site Web existant et l'améliorer. Une journée typique dans la vie d'un développeur Web consiste à corriger des bogues, à développer de nouvelles fonctionnalités (améliorations) et de nouvelles pages Web, et à travailler avec d'autres développeurs pour discuter des moyens de résoudre les problèmes.
+
+Ne vous laissez pas submerger par tous ces détails. Vous verrez bientôt qu’ils sont tous très connectés, et apprendre l’une de ces langues vous rend automatiquement meilleur dans quelques autres !
+
+
+Création d'un site Web
+Il existe deux manières de créer un site Web :
+
+CMS (Content Management System) est un système facile à utiliser qui vous permet de contrôler et de gérer le contenu de votre site Web sans nécessairement avoir de compétences techniques.
+
+Vous pouvez facilement ajouter et supprimer des images, des liens, des liens de présentation et d'autres contenus sur votre site Web.
+
+Le Hard Coding nécessite des compétences spécifiques et une connaissance des langages de programmation. C’est la manière complexe de créer un site Web et c’est ce que font les développeurs Web.
+Avec le codage en dur, vous avez la liberté de modifier ce que vous voulez et de créer un site Web personnalisé qui répond pleinement aux besoins de l'utilisateur, de l'employeur et du client.
+
+
+Un CMS est un logiciel qui aide les utilisateurs à créer, gérer et modifier le contenu d'un site Web sans avoir besoin de connaissances techniques.
+
+En termes plus simples, un CMS est un outil qui vous aide à créer un site Web sans avoir besoin d'écrire tout le code à partir de zéro ni même de savoir coder.
+
+Au lieu de créer votre propre système de création de pages Web, de stockage d'images et d'autres fonctions, le CMS gère toutes les tâches d'infrastructure de base pour vous afin que vous puissiez vous concentrer sur les parties plus orientées vers l'avenir de votre site Web.
+
+Outre les sites Web, vous pouvez également trouver des CMS pour d’autres fonctions comme la gestion de documents.
+
+
